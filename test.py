@@ -1,7 +1,7 @@
 import sys
 from antlr4 import *
-from MyGrammarLexer import MyGrammarLexer
-from MyGrammarParser import MyGrammarParser
+from MyGrammar.MyGrammarLexer import MyGrammarLexer
+from MyGrammar.MyGrammarParser import MyGrammarParser
  
 def main(argv):
     input_stream = FileStream(argv[1])
